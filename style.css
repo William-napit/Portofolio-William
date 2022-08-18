@@ -1,0 +1,450 @@
+*{padding: 0;
+margin: 0;
+font-family: 'Quicksand', sans-serif;
+color: #333;
+text-decoration: none;
+}
+
+header{
+	height: 70px;
+	background-color: orange;
+	position: fixed;
+	margin: 0px;
+	width: 100%;
+	margin-top: 0px;
+	box-shadow: 1px 1px 5px black;
+	top: 0px;
+	z-index: 9999;
+}
+
+h1{
+	float: left;
+	padding: 10px 10px;
+	text-transform: uppercase;
+}
+header h1 a{
+	transition: .3s;
+	text-decoration: none;
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+}
+header h1 a:hover{
+	color: #708090;
+}
+header ul li a:hover{
+	color: #708090;
+}
+header  ul li a{
+	transition: 0.3s;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+header ul{
+	
+	float: right;
+	
+}
+
+header ul li{
+	
+	padding: 22px;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+
+.bungkus{
+	margin: auto;
+	width: 90%;
+	
+
+}
+
+.bungkus::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.mobile-menu{
+	float: right;
+	display: none;
+	padding: 20px;
+}
+.mobile-menu:hover{
+	cursor: pointer;
+}
+.mobile-menu .fa-bars{
+	font-size : 25px;
+}
+#navbarNavDropdown{
+	display: none;
+}
+
+.sidebar{
+	width: 300px;
+	left: -350px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	z-index: 99999;
+	transition: .5s;
+	background-color: rgba(19, 15, 64,.9);
+	display: none;
+
+}
+.sidebar ul li{
+	display: block;
+}
+.sidebar ul li a {
+	background-color: rgba(19, 15, 64,.0);
+	padding: 20px;
+	left: -400px;
+	transition: .5s;
+
+}
+.sidebar ul li a span{
+color: #bdc3c7;
+padding: 5px;
+font-size: 14px;
+}
+
+.sidebar ul li a:hover{
+	background-color: #34495e
+}
+
+#navbarNavDropdown:checked ~ .sidebar{
+	left: 0;
+}
+
+#navbarNavDropdown:checked ~ .sidebar ul li a{
+	left: 0;
+	
+}
+
+.banner{
+	background-color: #1F6886;
+	/*height: 450px;*/
+	padding: 150px 0 0 0;
+	padding-left: 0px;
+}
+
+.banner-left{
+	float: left;
+}
+.banner-right{
+	width: auto;
+	float: right;
+	margin-top: 250px;
+	margin-right: -40px;
+	margin-bottom: 5px;	
+}
+.banner-right img{
+	-webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 50px;
+}
+
+.banner-left img{
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+	box-shadow: 0 3px 5px #ddd;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+
+.banner h2,
+.banner p,
+.banner span{
+	color: #fff;
+}
+.banner h2{
+	margin-bottom: 10px; 
+	font-size: 24px;
+	font-weight: bold;
+}
+.banner p{
+	font-size: 18px;
+}
+
+.banner-left{
+	padding-left: 24px;
+}
+
+section h5{
+	padding-bottom: 20px;
+	margin: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+}
+section{
+	margin-bottom: 50px;
+}
+#about h5::after{
+	content: '';
+	display: block;
+	bottom: -1px;
+	width: 40px;
+	height: 4px;
+	background-color: #F84744;
+	margin-left: calc(50% - 20px);
+
+}
+
+#penghargaan h5::after{
+	content: '';
+	display: block;
+	bottom: -1px;
+	width: 100px;
+	height: 4px;
+	background-color: #F84744;
+	margin-left: calc(50% - 50px);
+
+}
+
+#portofolio h5::after{
+	content: '';
+	display: block;
+	bottom: -1px;
+	width: 80px;
+	height: 4px;
+	background-color: #F84744;
+	margin-left: calc(50% - 40px);
+}
+
+#skills h5::after{
+	content: '';
+	display: block;
+	bottom: -1px;
+	width: 230px;
+	height: 4px;
+	background-color: #F84744;
+	margin-left: 40.4%;
+}
+
+#kontak h5::after{
+	content: '';
+	display: block;
+	bottom: -1px;
+	width: 50px;
+	height: 4px;
+	background-color: #F84744;
+	margin-left: calc(50% - 25px);
+	
+}
+#penghargaan .col-md-6{
+	text-align: center;
+	align-items: center;
+
+}
+
+#penghargaan .col-md-6 img{
+	text-align: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	box-shadow: 1px 1px 5px black; 
+
+}
+
+#penghargaan .col-md-6 img:hover{
+	box-shadow: 1px 1px 20px orange;
+}
+
+
+#about p{
+	text-align: justify;
+	text-indent: 30px;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+
+#skills h5{
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#skills h4{
+	font-size: 19px;
+	font-weight: bold;
+}
+
+#skills .bar{
+	border :1px solid;
+	height: 30px;
+	background-color: white;
+	margin: 5px 0 20px 0;
+}
+	
+.bar .js,
+.bar .html,
+.bar .sharp,
+.bar .office,
+.bar .adobe,
+.bar .sql,
+.bar .sap,
+.bar .spss,
+.bar .native,
+.bar .media,
+.bar .rstudio
+{
+	
+	height: 29px;
+	background-color: #f64744;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+
+}
+.bar .js{
+	width: 90%;
+}
+.bar .html{
+	width: 100%;
+}
+.bar .sharp{
+	width: 100%;
+}
+.bar .office{
+	width: 95%;
+}
+
+.bar .sql{
+	width: 95%;
+}
+.bar .sap{
+	width: 80%;
+}
+.bar .spss{
+	width: 90%;
+}
+.bar .native{
+	width: 95%;
+}
+.bar .media{
+	width: 100%;
+}
+.bar .rstudio{
+	width: 95%;
+}
+
+.bingkai{
+	width: 95%;
+	margin: auto;
+}
+
+#portofolio img{
+	width: 100%;
+	height: 100%;
+	box-shadow: 1px 1px 5px black;
+	margin-bottom: 5px;
+}
+
+#portofolio a img:hover {
+transform: scale(1.2 );
+}
+
+
+#portofolio .col-md-3{
+	text-align: center;
+	margin-bottom: 5px;
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+#portofolio .row{
+	margin-bottom: 30px;
+}
+
+#portofolio a{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#kontak h4{
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#kontak .col-md-4 p{
+	font-size: 16x;
+	text-align: center;
+}
+
+footer{
+	background-color: #333;
+	padding: 50px;
+	text-align: center;
+}
+
+footer small{
+	color: #fff;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+@media(max-width: 868px){
+	.mobile-menu{
+		display: block;
+	}
+	.bungkus ul{
+		display: none;
+	}
+	.sidebar{
+		display: block;
+	}
+	#about h5::after{
+		
+		margin-left: calc(50% - 20px);
+	}
+	#skills h5::after{
+		
+		margin-left: calc(50% - 115px);
+	}
+	#kontak h5::after{
+		
+		margin-left: calc(50% - 25px);
+	}
+	#portofolio h5::after{
+		margin-left: calc(50% - 40px);
+	}
+	.banner-right{
+	width: auto;
+	float: right;
+	margin-top: 250px;
+	margin-right: -10px;
+	margin-bottom: 5px;	
+	}
+	
+	#portofolio .col-md-3 {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	
+#penghargaan .col-md-6{
+	width: 50%;
+	height: 50%;
+}
+}
+
+
+/* [class^=col]{
+ 	border:1px solid red;
+
+ }*/
