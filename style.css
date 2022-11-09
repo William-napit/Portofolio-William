@@ -396,8 +396,7 @@ transform: scale(1.2 );
 
 #medsos{
 	display: none;
-	width: 60%;
-	margin: 0 auto;
+	
 }
 #medsos #item{
 	display: flex;
