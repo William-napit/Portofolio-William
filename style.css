@@ -389,9 +389,9 @@ transform: scale(1.2 );
 	text-decoration: none;
 	font-weight: bold;
 }
-#medsosbesar	i{
+#medsosbesar i{
 	font-size: 	60px;
-	width: 	60px;
+	
 }
 
 #medsos{
@@ -399,7 +399,7 @@ transform: scale(1.2 );
 	
 }
 #medsos #item{
-	display: flex;
+	
 	float: left;
 	width: 70px;
 }
@@ -472,9 +472,7 @@ html{
 		width: 50%;
 		margin-bottom: 30px;
 	}
-	#medsos .col-md-3	{
-		width: 	25%;
-	}
+	
 	
 #penghargaan .col-md-6{
 	width: 50%;
@@ -488,10 +486,20 @@ html{
 			justify-content: center;
 			padding-left: 6%;
 			
+			
 		}
-		#medsos #sosmed i{
+		#medsos #sosmed a{
 			font-size: 28px;
 			
+		}
+		.Ffacebook{
+			margin-left: -30px;
+		}
+		.linked{
+			margin-left: -30px;
+		}
+		.Twitter{
+			margin-left: -30px;
 		}
 		#medsosbesar{
 			display: none;
