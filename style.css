@@ -230,6 +230,17 @@ section{
 	margin-left: 40.4%;
 }
 
+#medsos h5::after{
+	content: '';
+	display: block;
+	bottom: -1px;
+	width: 90px;
+	height: 4px;
+	background-color: #F84744;
+	margin-left: calc(50% - 45px);
+	
+}
+
 #kontak h5::after{
 	content: '';
 	display: block;
@@ -362,6 +373,14 @@ transform: scale(1.2 );
 	padding: 5px;
 }
 
+.col-md-3{
+	text-align: center;
+	margin-bottom: 5px;
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+	padding: 5px;
+}
 #portofolio .row{
 	margin-bottom: 30px;
 }
@@ -370,7 +389,21 @@ transform: scale(1.2 );
 	text-decoration: none;
 	font-weight: bold;
 }
+#medsosbesar	i{
+	font-size: 	60px;
+	width: 	60px;
+}
 
+#medsos{
+	display: none;
+	width: 60%;
+	margin: 0 auto;
+}
+#medsos #item{
+	display: flex;
+	float: left;
+	width: 70px;
+}
 #kontak h4{
 	padding: 10px;
 	border-bottom: 1px solid #ddd;
@@ -397,6 +430,10 @@ footer small{
 
 html{
 	scroll-behavior: smooth;
+}
+
+#ikut{
+	display: none;
 }
 
 @media(max-width: 868px){
@@ -436,11 +473,30 @@ html{
 		width: 50%;
 		margin-bottom: 30px;
 	}
+	#medsos .col-md-3	{
+		width: 	25%;
+	}
 	
 #penghargaan .col-md-6{
 	width: 50%;
 	height: 50%;
 }
+		#medsos {
+			display: block;
+			
+		}
+		#medsos #sosmed {
+			justify-content: center;
+			padding-left: 6%;
+			
+		}
+		#medsos #sosmed i{
+			font-size: 28px;
+			
+		}
+		#medsosbesar{
+			display: none;
+		}
 }
 
 
