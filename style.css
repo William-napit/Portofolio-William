@@ -150,6 +150,17 @@ font-size: 14px;
   transform: rotate(45deg);
   width: 50px;
 }
+.banner .bungkus span i{
+	z-index: 9999;
+	position: fixed;
+	font-size: 60px;
+	right: 10px;
+	bottom: 20px;
+	color: green;
+	cursor: pointer;
+	
+	
+}
 
 .banner-left img{
 	width: 150px;
