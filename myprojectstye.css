@@ -17,6 +17,28 @@
 	box-sizing: border-box;
 	padding: 5px;
 }
+.card{
+	border: 1px solid black;
+	height: auto;
+	display: inline;
+}
+
+.card::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.card::before{
+	content: '';
+	display: block;
+	clear: both;
+}
+.button{
+
+}
+#myproject button{
+	width: 40%;
+}
 
 @media(max-width: 868px){
 	#myproject .col-md-3{
