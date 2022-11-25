@@ -153,11 +153,12 @@ font-size: 14px;
 .banner .bungkus span i{
 	z-index: 9999;
 	position: fixed;
-	font-size: 40px;
-	right: 10px;
+	font-size: 50px;
+	right: 20px;
 	bottom: 20px;
 	color: green;
 	cursor: pointer;
+
 	
 	
 }
