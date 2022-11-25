@@ -262,7 +262,16 @@ section{
 	margin-left: calc(50% - 45px);
 	
 }
-
+#medsosbesar h5::after{
+	content: '';
+	display: block;
+	bottom: -1px;
+	width: 90px;
+	height: 4px;
+	background-color: #F84744;
+	margin-left: calc(50% - 45px);
+	
+}
 #kontak h5::after{
 	content: '';
 	display: block;
@@ -468,21 +477,7 @@ html{
 	.sidebar{
 		display: block;
 	}
-	#about h5::after{
-		
-		margin-left: calc(50% - 20px);
-	}
-	#skills h5::after{
-		
-		margin-left: calc(50% - 115px);
-	}
-	#kontak h5::after{
-		
-		margin-left: calc(50% - 25px);
-	}
-	#portofolio h5::after{
-		margin-left: calc(50% - 40px);
-	}
+	
 	.banner-right{
 	width: auto;
 	float: right;
